@@ -1,0 +1,27 @@
+body {
+  box-sizing: content-box;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #2d3c49;
+
+}
+
+header {
+  box-sizing: content-box;
+  background-color: red;
+  width:50%;
+  min-width: 400px;
+  height:10px;
+}
+
+#name {
+  box-sizing: content-box;
+  font-size: 3em;
+  float:left;
+  clear:left;
+}
+
+.skills {
+  box-sizing: content-box;
+  float:left;
+  clear:left;
+}
