@@ -1,27 +1,77 @@
+/*color:
+pink:CA1B56
+dark red:97536C
+purple :D226FD
+green yellow:F7FD65
+deep yellow:CAB90A
+*/
 body {
   box-sizing: content-box;
   font-family: Tahoma, Geneva, sans-serif;
   color: #2d3c49;
-
+  margin:0px;
 }
 
 header {
   box-sizing: content-box;
-  background-color: red;
   width:50%;
   min-width: 400px;
-  height:10px;
 }
+
+.skills{
+  color:#97536C;
+}
+
+main figure{
+  -webkit-margin-before: 20px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+img{
+  width:100%;
+}
+
+
+
+
 
 #name {
   box-sizing: content-box;
-  font-size: 3em;
-  float:left;
-  clear:left;
+  font-size: 4em;
+  color:#CA1B56;
+  font-weight: lighter;
 }
 
-.skills {
-  box-sizing: content-box;
-  float:left;
-  clear:left;
+#devider {
+  height: 5px;
+  min-width: 400px;
+  margin-left: 0px;
+  width: 100%;
+  background-color: #CAB90A;
+}
+
+#featuredWork h{
+  color:#97536C;
+}
+
+.fBoxContainer{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+.works{
+  width: 350px;
+  margin:3px;
+}
+figure{
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.works img{
+width:350px;
+height:350px;
 }
