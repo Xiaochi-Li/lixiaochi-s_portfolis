@@ -10,6 +10,8 @@ body {
   font-family: Tahoma, Geneva, sans-serif;
   color: #2d3c49;
   margin:0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 header {
@@ -19,22 +21,17 @@ header {
 }
 
 .skills{
+  box-sizing: content-box;
   color:#97536C;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
 }
 
-main figure{
-  -webkit-margin-before: 20px;
-  -webkit-margin-after: 0px;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
+
 img{
+  box-sizing: content-box;
   width:100%;
 }
-
-
-
-
 
 #name {
   box-sizing: content-box;
@@ -43,7 +40,37 @@ img{
   font-weight: lighter;
 }
 
-#devider {
+.info{
+  box-sizing: content-box;
+  background-image: linear-gradient(0deg,#660033 0,transparent);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 3%;
+  padding-bottom: 3%;
+  height:15%;
+  padding-right: 3%;
+  width: 94%;
+  vertical-align: bottom;
+  text-align: right;
+}
+
+.info h{
+  box-sizing: content-box;
+  font-size: 1.3em;
+}
+
+.info p{
+  box-sizing: content-box;
+  -webkit-margin-before: 5px;
+  -webkit-margin-after: 0px;
+}
+
+.devider{
+  box-sizing: content-box;
+  -webkit-margin-before: 20px;
+  -webkit-margin-after: 20px;
   height: 5px;
   min-width: 400px;
   margin-left: 0px;
@@ -52,26 +79,31 @@ img{
 }
 
 #featuredWork h{
+  box-sizing: content-box;
   color:#97536C;
 }
 
 .fBoxContainer{
+  box-sizing: content-box;
   display:flex;
   flex-wrap: wrap;
 }
 
 
 .works{
-  width: 350px;
+  box-sizing: content-box;
+  width: 100%;
   margin:3px;
 }
 figure{
+  box-sizing: content-box;
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+  position: relative;
 }
 .works img{
-width:350px;
-height:350px;
+  box-sizing: content-box;
+  width: 100%;
 }
