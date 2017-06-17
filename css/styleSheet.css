@@ -13,7 +13,7 @@ body {
   box-sizing: content-box;
   font-family: Tahoma, Geneva, sans-serif;
   color: #2d3c49;
-  margin:0px;
+  margin: 0px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -23,32 +23,32 @@ body {
 
 header {
   box-sizing: content-box;
-  width:100%;
+  width: 100%;
   min-width: 300px;
 }
 
-.skills{
+.skills {
   box-sizing: content-box;
-  color:#97536C;
+  color: #97536C;
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
 }
 
 
-img{
+img {
   box-sizing: content-box;
-  width:100%;
+  width: 100%;
 }
 
 #name {
   box-sizing: content-box;
-  color:#CA1B56;
+  color: #CA1B56;
   font-weight: lighter;
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
 }
 
-.info{
+.info {
   box-sizing: content-box;
   background-color: rgba(102, 0, 51,0.5);
   color: #fff;
@@ -70,19 +70,19 @@ img{
   margin-top: 10px;
 }
 
-.info h2{
+.info h2 {
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     font-weight: normal;
 }
 
-.info a{
+.info a {
   box-sizing: content-box;
   font-size: 1.1em;
 }
 
-a:link{
-  text-decoration:none;
+a:link {
+  text-decoration: none;
   cursor: auto;
 }
 
@@ -94,19 +94,19 @@ a:hover {
     color: hotpink;
 }
 
-.info p{
+.info p {
   box-sizing: content-box;
   -webkit-margin-before: 5px;
   font-size: 0.9em;
   -webkit-margin-after: 0px;
 }
 
-h1{
+h1 {
   -webkit-margin-before: 0px;
 -webkit-margin-after: 0px;
 }
 
-.devider{
+.devider {
   box-sizing: content-box;
   display: block;
   -webkit-margin-before: 10px;
@@ -118,25 +118,25 @@ h1{
   background-color: #CAB90A;
 }
 
-#featuredWork h1{
+#featuredWork h1 {
   box-sizing: content-box;
 
-  color:#97536C;
+  color: #97536C;
 }
 
-.fBoxContainer{
+.fBoxContainer {
   box-sizing: content-box;
   display:flex;
   flex-wrap: wrap;
 }
 
 
-.works{
+.works {
   box-sizing: content-box;
   width: 100%;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
-figure{
+figure {
   box-sizing: content-box;
   -webkit-margin-before: 5px;
   -webkit-margin-after: 0px;
@@ -144,17 +144,17 @@ figure{
   -webkit-margin-end: 0px;
   position: relative;
 }
-.works img{
+.works img {
   box-sizing: content-box;
   width: 100%;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
   body{
     padding-left: 20px;
     padding-right: 20px;
   }
-  #name{
+  #name {
     font-size: 3.4em;
   }
   .info h2,.info a{
@@ -162,124 +162,124 @@ figure{
   }
 }
 
-@media screen and (min-width:601px) and (max-width:900px){
-  body{
+@media screen and (min-width:601px) and (max-width:900px) {
+  body {
     padding-left: 20px;
     padding-right: 20px;
   }
-  #name{
+  #name {
     font-size: 4em;
-    float:left;
+    float: left;
   }
 
   header:after {
-    content:'';
-    clear:both;
-    display:table;
+    content: '';
+    clear: both;
+    display: table;
   }
 
-  main figure{
-    height:350px;
+  main figure {
+    height: 350px;
     overflow: hidden;
   }
-  main figure img{
-    min-width:100%;
+  main figure img {
+    min-width: 100%;
     height: auto;
   }
 
-  #skillSet{
+  #skillSet {
     text-align: right;
     padding-top: 10px;
   }
 
-  .info h{
+  .info h {
     font-size: 1.5em;
   }
 
-  .works{
+  .works {
     width: 48%;
     margin: auto;
   }
 }
 
-@media screen and (min-width:901px) and (max-width:1250px){
+@media screen and (min-width:901px) and (max-width:1250px) {
   body{
     padding-left: 20px;
     padding-right: 20px;
   }
-  #name{
+  #name {
     font-size: 4.1em;
-    float:left;
+    float: left;
     padding-right: 30px;
   }
 
   header:after {
-    content:'';
-    clear:both;
-    display:table;
+    content: '';
+    clear: both;
+    display: table;
   }
 
-  main figure{
-    height:350px;
+  main figure {
+    height: 350px;
     overflow: hidden;
   }
-  main figure img{
-    min-width:100%;
+  main figure img {
+    min-width: 100%;
     height: auto;
   }
 
-  #skillSet{
+  #skillSet {
     text-align: left;
     padding-top: 12px;
     padding-left: 20px;
   }
 
-  .info h{
+  .info h {
     font-size: 1.5em;
   }
 
-  .works{
+  .works {
     width: 32%;
     padding: 5px;
   }
 }
 
-@media screen and (min-width:1251px){
+@media screen and (min-width:1251px) {
   body{
     padding-right: 20px;
-    width:85%;
+    width: 85%;
   }
-  #name{
+  #name {
     font-size: 4.1em;
-    float:left;
+    float: left;
     padding-right: 30px;
   }
 
   header:after {
-    content:'';
-    clear:both;
-    display:table;
+    content: '';
+    clear: both;
+    display: table;
   }
 
-  main figure{
-    height:350px;
+  main figure {
+    height: 350px;
     overflow: hidden;
   }
-  main figure img{
+  main figure img {
     min-width:100%;
     height: auto;
   }
 
-  #skillSet{
+  #skillSet {
     text-align: left;
     padding-top: 12px;
   }
 
-  .info h{
+  .info h {
     font-size: 1.5em;
   }
 
-  .works{
+  .works {
     width: 24%;
     padding: 5px;
 
