@@ -84,6 +84,7 @@ img {
 a:link {
   text-decoration: none;
   cursor: auto;
+  color:white;
 }
 
 a:visited {
@@ -147,6 +148,7 @@ figure {
 .works img {
   box-sizing: content-box;
   width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width:600px) {
