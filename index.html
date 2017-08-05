@@ -6,112 +6,118 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/styleSheet.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/js.js"></script>
 </head>
 
-<body>
-  <header>
-    <h1 id="name">XIAOCHI LI</h1>
-    <div id="skillSet">
+<body class="container">
+  <header class="row">
+    <div class="col-xs-12">
+      <h1 class="head-name">Xiaochi Li.
+        <br>
+        Front End Developer with Visual Experience
+      </h1>
+    </div>
+
+    <div class="col-xs-12">
+      <h2 class="head-intro">Build efficient web interface that make people's life happier.</h2>
+    </div>
+    <!-- <div class="col-xs-12 col-md-6">
       <P class="skills">Android development</P>
       <P class="skills">Fullstack web develepment</P>
       <P class="skills">Machine learning</P>
-    </div>
+    </div> -->
   </header>
 
-  <nav></nav>
-
-  <div class="devider">
-  </div>
-
-  <main>
-    <figure>
-      <img src="img/main_figure.jpg" alt="main_project">
-      <div class="info">
-        <h2 id="mainImgH">DEVELOPER WITH VISUAL GRAPHIC EXPERIENCE</h2>
-        <p class="imageP">I have 1.5 year experience working in advertisment</p>
+  <div class="row">
+    <div class=" col-xs-12  ">
+      <div class="project">
+        <div class="main">
+          <img src="img/main_figure.jpg" alt="main_project">
+        </div>
+        <div class="info">
+          <h2 id="mainImgH">DEVELOPER WITH VISUAL GRAPHIC EXPERIENCE</h2>
+          <p class="imageP">I have 1.5 year experience working in advertisment</p>
+        </div>
       </div>
-    </figure>
 
-  </main>
-
-  <section id="featuredWork">
-    <h1>Featured Work</h1>
-    <div class="devider">
     </div>
-    <div class="fBoxContainer">
-      <section class="works">
-        <figure>
-          <img src="img/work1.png" alt="music type classification">
-          <div class="info">
-            <a href="https://github.com/Xiaochi-Li/Music_type_classification">Music type classification: Machine learning</a>
-            <p class="imageP">A ML program categorize songs</p>
-          </div>
 
-        </figure>
-      </section>
+    <section class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+      <div class="project">
+        <img src="img/work1.png " alt="music type classification ">
+        <div class="info ">
+          <a href="https://github.com/Xiaochi-Li/Music_type_classification ">Music type classification</a>
+          <p class="imageP ">A ML program categorize songs</p>
+        </div>
+      </div>
+    </section>
 
-      <section class="works">
-        <figure>
-          <img src="img/work2.png" alt="My inventory app">
-          <div class="info">
-            <a href="https://github.com/Xiaochi-Li/MyInventory">MyInventory Android APP</a>
-            <p class="imageP">Inventory management app</p>
-          </div>
-        </figure>
-      </section>
+    <!-- Add the extra clearfix for only the required viewport -->
+    <!-- <div class="clearfix visible-xs-block"></div> -->
 
-      <section class="works">
-        <figure>
-          <img src="img/work3.png" alt="real social app">
-          <div class="info">
-            <a href="">FOMO:A Real Time Social APP</a>
-            <p class="imageP">Finding fun places and people around you</p>
-          </div>
-        </figure>
+    <section class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+      <div class="project">
+        <img src="img/work2.png " alt="My inventory app ">
+        <div class="info ">
+          <a href="https://github.com/Xiaochi-Li/MyInventory ">MyInventory Android APP</a>
+          <p class="imageP ">Inventory management app</p>
+        </div>
 
-      </section>
+    </section>
 
-      <section class="works">
-        <figure>
-          <img src="img/work4.png" alt="Book Search app">
-          <div class="info">
-            <a href="https://github.com/Xiaochi-Li/BookSearchApp">Book Search Android APP</a>
-            <p class="imageP">Searching new books</p>
-          </div>
-        </figure>
+    <section class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+      <div class="project">
+        <img src="img/work3.png " alt="real social app ">
+        <div class="info ">
+          <a href=" ">FOMO:A Real Time Social APP</a>
+          <p class="imageP ">Finding fun places and people around you</p>
+        </div>
+      </div>
 
-      </section>
+    </section>
 
-      <section class="works">
-        <figure>
-          <img src="img/work5.png" alt="Tour guide app">
-          <div class="info">
-            <a href="https://github.com/Xiaochi-Li/tourguide">Tour Guide APP</a>
-            <p class="imageP">A local tour guide app</p>
-          </div>
-        </figure>
+    <section class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+      <div class="project">
+        <img src="img/work4.png " alt="Book Search app ">
+        <div class="info ">
+          <a href="https://github.com/Xiaochi-Li/BookSearchApp ">Book Search Android APP</a>
+          <p class="imageP ">Searching new books</p>
+        </div>
+      </div>
 
-      </section>
+    </section>
 
-      <section class="works">
-        <figure>
-          <img src="img/work6.png" alt="Topic tracker">
-          <div class="info">
-            <a href="https://github.com/Xiaochi-Li/TopicTracker">Topic tracker</a>
-            <p class="imageP">Track the hot news</p>
-          </div>
-        </figure>
-      </section>
+    <section class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+      <div class="project">
+        <img src="img/work5.png " alt="Tour guide app ">
+        <div class="info ">
+          <a href="https://github.com/Xiaochi-Li/tourguide ">Tour Guide APP</a>
+          <p class="imageP ">A local tour guide app</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+      <div class="project">
+        <img src="img/work6.png " alt="Topic tracker ">
+        <div class="info ">
+          <a href="https://github.com/Xiaochi-Li/TopicTracker ">Topic tracker</a>
+          <p class="imageP ">Track the hot news</p>
+        </div>
+      </div>
+    </section>
+
     </div>
-  </section>
 
-  <div class="devider">
+
+    <!-- <div class="devider "> -->
   </div>
 
   <footer></footer>
 </body>
-
 
 </html>

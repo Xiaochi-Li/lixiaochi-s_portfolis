@@ -5,62 +5,70 @@ purple :D226FD
 green yellow:F7FD65
 deep yellow:CAB90A
 */
+
+
 html {
   position:relative;
+  box-sizing:content-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'AG',-apple-system,BlinkMacSystemFont,'helvetica neue',helvetica,ubuntu,roboto,noto,'segoe ui',arial,sans-serif;
+  }
+
 body {
-  box-sizing: content-box;
   font-family: Tahoma, Geneva, sans-serif;
   color: #2d3c49;
-  margin: 0px;
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
-header {
-  box-sizing: content-box;
-  width: 100%;
-  min-width: 300px;
+header{
+  margin-top:40px;
+   color:#CA1B56;
 }
 
-.skills {
-  box-sizing: content-box;
-  color: #97536C;
-  -webkit-margin-before: 0px;
-  -webkit-margin-after: 0px;
+.head-name{
+  font-size: 18px;
+}
+
+.head-intro{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.main{
+  max-height : 400px;
+  overflow: hidden;
+  position: relative;
+}
+.main img{
+  min-width: 100%;
+}
+
+#main-project{
+  height: 400px;
 }
 
 
 img {
-  box-sizing: content-box;
   width: 100%;
 }
 
-#name {
-  box-sizing: content-box;
-  color: #CA1B56;
-  font-weight: lighter;
-  -webkit-margin-before: 0px;
-  -webkit-margin-after: 0px;
-}
-
 .info {
-  box-sizing: content-box;
   background-color: rgba(102, 0, 51,0.5);
   color: #fff;
   position: absolute;
-  bottom: 2px;
+  bottom: 0;
   left: 0;
-  padding-left: 3%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding: 3%;
   height:15%;
-  padding-right: 3%;
-  width: 94%;
+  width: 100%;
   height: auto;
   vertical-align: bottom;
   text-align: right;
@@ -71,13 +79,10 @@ img {
 }
 
 .info h2 {
-    -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px;
     font-weight: normal;
 }
 
 .info a {
-  box-sizing: content-box;
   font-size: 1.1em;
 }
 
@@ -96,7 +101,6 @@ a:hover {
 }
 
 .info p {
-  box-sizing: content-box;
   -webkit-margin-before: 5px;
   font-size: 0.9em;
   -webkit-margin-after: 0px;
@@ -107,183 +111,60 @@ h1 {
 -webkit-margin-after: 0px;
 }
 
-.devider {
-  box-sizing: content-box;
-  display: block;
-  -webkit-margin-before: 10px;
-  -webkit-margin-after: 5px;
-  height: 5px;
-  min-width: 200px;
-  margin-left: 0px;
-  width: 100%;
-  background-color: #CAB90A;
+.project{
+  margin: 15px 0 15px;
+  position: relative;
 }
-
-#featuredWork h1 {
-  box-sizing: content-box;
-
-  color: #97536C;
-}
-
-.fBoxContainer {
-  box-sizing: content-box;
-  display:flex;
-  flex-wrap: wrap;
-}
-
 
 .works {
-  box-sizing: content-box;
   width: 100%;
   margin-bottom: 5px;
 }
-figure {
-  box-sizing: content-box;
-  -webkit-margin-before: 5px;
-  -webkit-margin-after: 0px;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  position: relative;
-}
+
 .works img {
-  box-sizing: content-box;
   width: 100%;
   height: auto;
 }
 
-@media screen and (max-width:600px) {
-  body{
-    padding-left: 20px;
-    padding-right: 20px;
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .head-name{
+    font-size: 18px;
   }
-  #name {
-    font-size: 3.4em;
-  }
-  .info h2,.info a{
-    font-size: 1.1em;
+
+  .head-intro{
+    font-size: 36px;
+    max-width: 70%;
+    margin-bottom: 60px;
   }
 }
 
-@media screen and (min-width:601px) and (max-width:900px) {
-  body {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #name {
-    font-size: 4em;
-    float: left;
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .head-name{
+    font-size: 22px;
   }
 
-  header:after {
-    content: '';
-    clear: both;
-    display: table;
-  }
-
-  main figure {
-    height: 350px;
-    overflow: hidden;
-  }
-  main figure img {
-    min-width: 100%;
-    height: auto;
-  }
-
-  #skillSet {
-    text-align: right;
-    padding-top: 10px;
-  }
-
-  .info h {
-    font-size: 1.5em;
-  }
-
-  .works {
-    width: 48%;
-    margin: auto;
+  .head-intro{
+    font-size: 45px;
+    max-width: 70%;
+    margin-bottom: 60px;
   }
 }
 
-@media screen and (min-width:901px) and (max-width:1250px) {
-  body{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #name {
-    font-size: 4.1em;
-    float: left;
-    padding-right: 30px;
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .head-name{
+    font-size: 22px;
   }
 
-  header:after {
-    content: '';
-    clear: both;
-    display: table;
-  }
-
-  main figure {
-    height: 350px;
-    overflow: hidden;
-  }
-  main figure img {
-    min-width: 100%;
-    height: auto;
-  }
-
-  #skillSet {
-    text-align: left;
-    padding-top: 12px;
-    padding-left: 20px;
-  }
-
-  .info h {
-    font-size: 1.5em;
-  }
-
-  .works {
-    width: 32%;
-    padding: 5px;
-  }
-}
-
-@media screen and (min-width:1251px) {
-  body{
-    padding-right: 20px;
-    width: 85%;
-  }
-  #name {
-    font-size: 4.1em;
-    float: left;
-    padding-right: 30px;
-  }
-
-  header:after {
-    content: '';
-    clear: both;
-    display: table;
-  }
-
-  main figure {
-    height: 350px;
-    overflow: hidden;
-  }
-  main figure img {
-    min-width:100%;
-    height: auto;
-  }
-
-  #skillSet {
-    text-align: left;
-    padding-top: 12px;
-  }
-
-  .info h {
-    font-size: 1.5em;
-  }
-
-  .works {
-    width: 24%;
-    padding: 5px;
-
+  .head-intro{
+    font-size: 52px;
+    max-width: 70%;
+    margin-bottom: 60px;
   }
 }
